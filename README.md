@@ -20,7 +20,7 @@
        dependencies {
            
         
-            api 'com.github.TangHaifeng-LogFilePrinter:1.0.1'
+            api 'com.github.TangHaifeng:LogFilePrinter:1.0.1'
         
           
         }
@@ -38,15 +38,34 @@ LogConfig logConfig = new LogConfig.Builder()
                 .fileSize(1 * 1024 * 1024)
                 .build();
                 //初始化
-        FileLog.init(logConfig);
+FileLog.init(logConfig);
 ```
 
 
 ## 使用方法
 
 			
-            FileLog.i("可以打印一条普通的提示信息")
-      		FileLog.e("打印一条错误日志",new Exception())
+FileLog.i("可以打印一条普通的提示信息")
+FileLog.e("打印一条错误日志",new Exception())
+
+## License
+
+<pre>
+Copyright 2020 John
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+</pre>
+
 
 
 
