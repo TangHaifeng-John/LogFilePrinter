@@ -7,7 +7,6 @@
             repositories {
                 google()
                 jcenter()
-            
                 maven { url 'https://jitpack.io' }
             }
         }
@@ -15,17 +14,11 @@
     
     需要使用日志存储的模块build.gradle文件添加
        dependencies {
-           
-        
             api 'com.github.TangHaifeng:LogFilePrinter:1.0.1'
-        
-          
         }
 
 
 ## 配置信息
-
-
 ```
 //构建日志配置
 LogConfig logConfig = new LogConfig.Builder()
