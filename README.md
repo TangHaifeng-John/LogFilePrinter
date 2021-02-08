@@ -29,7 +29,7 @@
 ```
 //构建日志配置
 LogConfig logConfig = new LogConfig.Builder()
-				//设置日志文件的绝对路径，如果要写入外部存储卡，请添加存储权限
+		//设置日志文件的绝对路径，如果要写入外部存储卡，请添加存储权限
                 .absolutePath(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "filelog" + File.separator + "test.log")
                 //设置文件大小，目前日志只会生成一个文件，设置的文件大小后，会自动裁剪文件的前半段内容
                 .fileSize(1 * 1024 * 1024)
