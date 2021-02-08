@@ -44,10 +44,10 @@ FileLog.init(logConfig);
 
 ## 使用方法
 
-			
+```			
 FileLog.i("可以打印一条普通的提示信息")
 FileLog.e("打印一条错误日志",new Exception())
-
+```
 ## License
 
 <pre>
