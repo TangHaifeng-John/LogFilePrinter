@@ -38,15 +38,13 @@ FileLog.init(logConfig);
 FileLog.i("可以打印一条普通的提示信息")
 FileLog.e("打印一条错误日志",new Exception())
 ```
-## License
-
 ## 功能点
  1. 日志写入是在子线程，因此不影响性能
  2. 支持日志文件最大限制
  3. 支持设置日志文件路径
 ## 后面的计划
  - [ ] 增加多日志文件支持
-
+## License
 <pre>
 Copyright 2020 John
 
